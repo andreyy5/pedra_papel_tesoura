@@ -94,3 +94,53 @@ h1 {
     justify-content: center;
     position: relative;
 }
+
+.placar { 
+    width: 200px;
+    height: 76px;
+    border: 2px solid var(--pupler); 
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.label {
+    border-radius: 10px;
+    width: 60px;
+    padding: 5px;
+    font-size: .8rem;
+    font-weight: 800;
+    color: var(--white);
+    text-align: center;
+    position: absolute;
+} 
+
+.bg-green {
+    background-color: var(--green);
+    left: 15%;
+}
+
+.bg-red { 
+    background-color: var(--red);
+    right: 16%;
+} 
+
+.placar {
+    width: 200px;
+    height: 76px;
+    border: 2px solid var(--pupler);
+    border-radius: 10px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
