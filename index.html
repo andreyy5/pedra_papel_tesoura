@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedra, Papel e tesoura</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedra, Papel e tesoura</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div id="game" class="container">
-          <h1>
-            Pedra Papel Tesoura
-          </h1>
-          <div class="bloco">
-            <div class="label bg-green">USER</div>
-            <div class="label bg-red">PC</div>
-            <div id="contador" class="placar">
-                0:0
-          </div>
+  <div id="game" class="container">
+    <h1>
+      Pedra Papel Tesoura
+    </h1>
+    <div class="bloco">
+      <div class="label bg-green">USER</div>
+      <div class="label bg-red">PC</div>
+      <div id="contador" class="placar">
+        0:0
+      </div>
+    </div>
+    <div class="bloco bg-grey selected-image">
+      <div id="user">
+        <img src="assets/images/rock.png">
+      </div>
+      <div id="pc" class="reverse"> </div>
     </div>
 
+    <h2>Escolha seu movimento</h2>
+
     <div id="winner" class="container end-screen none">
-            <span>>🏆🏆🏆</span>
-            <h3>VOCÊ GANHOU!</h3>
-            <button onclick="newGame()">Jogue novamente</button>
+      <span>>🏆🏆🏆</span>
+      <h3>VOCÊ GANHOU!</h3>
+      <button onclick="newGame()">Jogue novamente</button>
     </div>
-   
+
     <div id="loser" class="container end-screen none">
-            <h3>VOCÊ PERDEU!</h3>
-            <button onclick="newGame()">Jogue novamente</button>
+      <h3>VOCÊ PERDEU!</h3>
+      <button onclick="newGame()">Jogue novamente</button>
     </div>
 
 </body>
+
 </html>

@@ -144,3 +144,29 @@ h1 {
     font-weight: bold;
 }
 
+.bg-grey { 
+    background-color: var(--grey);
+    height: 180px;
+}
+
+.selected-image div {
+    width: 50%;
+    min-height: 80px;
+    text-align: center;
+}
+
+
+.selected-image div img{
+    max-width: 80%;
+}
+
+.reverse { 
+    transform: scale(-1);
+}
+
+h2 { 
+  text-align: center;
+  text-transform: uppercase; 
+  font-size: 1.3rem;
+  padding: 20px 0;
+}
