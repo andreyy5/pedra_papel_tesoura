@@ -29,16 +29,30 @@
 
     <h2>Escolha seu movimento</h2>
 
-    <div id="winner" class="container end-screen none">
-      <span>>🏆🏆🏆</span>
-      <h3>VOCÊ GANHOU!</h3>
-      <button onclick="newGame()">Jogue novamente</button>
-    </div>
+    <div class="buttons">
+      <label>
+        <input type="radio" onclick="reset()" name="play" value="rock" checked>
+        <button class="btn"><img src="assets/images/rock.png"></button>
+      </label>
+      <label>
+        <input type="radio" onclick="reset()" name="play" value="rock" checked>
+        <button class="btn"><img src="assets/images/paper.png"></button>
+      </label>
+      <label>
+        <input type="radio" onclick="reset()" name="play" value="rock" checked>
+        <button class="btn"><img src="assets/images/scissor.png"></button>
+      </label>
 
-    <div id="loser" class="container end-screen none">
-      <h3>VOCÊ PERDEU!</h3>
-      <button onclick="newGame()">Jogue novamente</button>
-    </div>
+      <div id="winner" class="container end-screen none">
+        <span>>🏆🏆🏆</span>
+        <h3>VOCÊ GANHOU!</h3>
+        <button onclick="newGame()">Jogue novamente</button>
+      </div>
+
+      <div id="loser" class="container end-screen none">
+        <h3>VOCÊ PERDEU!</h3>
+        <button onclick="newGame()">Jogue novamente</button>
+      </div>
 
 </body>
 
