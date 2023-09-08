@@ -19,6 +19,7 @@ html, body {
     --green: #11780F;
     --red: #D2300C;
     --grey: #D9D9D9;
+    --black: #000;
     --dark-transparent: rgba(255,255,255,.5)
 }
 
@@ -27,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Popins', sans-serif;
-    background-color: var(--dark);
+    background-color: var(--red);
 }
 
 .container { 
@@ -121,12 +122,12 @@ h1 {
 } 
 
 .bg-green {
-    background-color: var(--green);
+    background-color: var(--black);
     left: 15%;
 }
 
 .bg-red { 
-    background-color: var(--red);
+    background-color: var(--black);
     right: 16%;
 } 
 
@@ -206,3 +207,27 @@ label {
     cursor: pointer; 
 }
 
+[type=radio]:checked + button { 
+    background-color: var(--red);
+}
+
+.btn-play, .btn-play:disabled:hover {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid var(--red);
+    border-radius: 10px;
+    background-color: var(--grey);
+    color: var(--dark);
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s; 
+    text-align: center;
+}
+
+.btn-play:hover { 
+    background-color: #D2300C;
+    color: white;
+}
