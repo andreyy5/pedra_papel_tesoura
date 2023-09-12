@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Popins', sans-serif;
-    background-color: var(--red);
+    background-color: #333030;
 }
 
 .container { 
