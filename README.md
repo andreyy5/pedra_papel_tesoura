@@ -6,7 +6,7 @@
 <br>
 
 
-<h2 href="https://andreyy5.github.io/pedra_papel_tesoura/">Acesse o jogo aqui!</h2>
+<a href="https://andreyy5.github.io/pedra_papel_tesoura/">Acesse o jogo aqui!</a>
 
 
 ## 🚀 TECNOLOGIAS: 
