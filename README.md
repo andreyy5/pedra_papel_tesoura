@@ -6,7 +6,7 @@
 
 <h2>Abaixo segue em anexo como ficou a interface do game:</h2>
 
-<img alt="imagemDoGame" src="./assets/game.png">
+<img alt="imagemDoGame" src="https://drive.google.com/file/d/18M_vRwXShifr4YH4lLcszKBi0G1IKEvY/view?usp=sharing">
 
 
 <a href=""> Acesse aqui! </a>
@@ -18,7 +18,6 @@
   <li> CSS </li>
   <li> JAVASCRIPT </li>
   <li> GIT E GITHUB </li>
-  <li> FIGMA </li>
 </ul> 
 
 
